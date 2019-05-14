@@ -1,5 +1,5 @@
 module "global-vars" {
-  source                  = "../global-vars"
+  source                  = "./global-vars"
 }
 
 output "bucket_name" {
