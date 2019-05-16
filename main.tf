@@ -8,7 +8,7 @@ data "aws_security_group" "default" {
 }
 
 module "vpc" {
-  source = "../terraform-aws-vpc"
+  source = "git::https://github.com/mungmoong/terraform-aws-vpc.git"
 
   name = "complete-vpc"
 
